@@ -1,5 +1,5 @@
-from main.Node import LinkedList
-from main.Sorting import bubbleSort
+from Node import *
+from Sorting import *
 #Define test linked list
 l = LinkedList(4)
 
