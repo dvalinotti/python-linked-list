@@ -12,7 +12,7 @@ class Node:
         self.next = None
         
     def __str__(self):
-        return self.value
+        return str(self.value)
         
 class LinkedList:
     
@@ -47,3 +47,6 @@ class LinkedList:
         last.next = Node(value)
         self.length += 1
     
+    def returnLast(self):
+        print(self.traverse(self.length))
+        return self.traverse(self.length)
