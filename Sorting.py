@@ -3,8 +3,8 @@ Created on Aug 25, 2018
 
 @author: Dan Valinotti
 '''
-
 import Node
+import json
 
 def bubbleSort (list):
     current = list.first
@@ -26,7 +26,7 @@ def bubbleSort (list):
                 if current != None:
                     previous = current
                     current = current.next
-    print(list)
+    return(json.dumps(list))
     
 def insertionSort (list):
     return None
